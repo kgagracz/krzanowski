@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 :root {
-	/* colors  */
+	/* TYPOGRAPHY */
 	--primary: #28b4b1;
 	--text: #626262;
 	--secondary: #cdc16d;
 	--menu-item-text: #8d8b8b;
+	--menut-item-active: #eeeeee;
+	--white: #dcdcdc;
+	--red: #ff0000;
 
+	--text-fs: 16px;
+	--main-heading-fs: 42px;
+	--secondary-heading-fs: 24px;
 	/* spacings  */
-
-	/* elements sizes  */
+	--section-padding: 100px;
 }
 
 *,
@@ -22,9 +27,49 @@
 
 body {
 	font-family: "Poppins";
+	font-size: var(--text-fs);
+	color: var(--text);
+}
+
+section {
+	padding: var(--section-padding);
 }
 
 .container {
 	width: 1365px;
 	margin: auto;
+	display: flex;
+	gap: 60px;
+}
+
+.section-content {
+	margin-top: var(--section-padding);
+}
+
+.column {
+	width: 50%;
+}
+
+.main-heading {
+	color: var(--text);
+	font-size: var(--main-heading-fs);
+	font-weight: 500;
+}
+
+.secondary-heading {
+	color: var(--text);
+	font-size: var(--secondary-heading-fs);
+	font-weight: 500;
+}
+
+.color-1 {
+	color: var(--primary);
+}
+
+.color-2 {
+	color: var(--secondary);
+}
+
+.white {
+	color: var(--white);
 }

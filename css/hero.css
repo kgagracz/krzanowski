@@ -1,4 +1,8 @@
 .hero {
 	height: 100vh;
 	background-image: url("../img/hero.webp");
+	margin-top: -90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

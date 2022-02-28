@@ -1,15 +1,15 @@
-header {
+.header {
+	z-index: 10;
 	width: 100%;
 	display: flex;
 	height: 90px;
 	background-color: rgba(255, 255, 255, 0.05);
+	position: sticky;
+	top: 0;
+	transition: background 0.3s ease-in;
 }
 
-.header-items-container {
-	width: 50%;
-}
-
-.primary-nav {
+.nav {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -17,9 +17,18 @@ header {
 	gap: 40px;
 }
 
-.primary-nav .nav-item .nav-link {
+.nav .nav-item .nav-link {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
 	color: var(--menu-item-text);
+	transition: color 0.2s;
+}
+
+.nav .nav-item .nav-link:hover {
+	color: var(--menut-item-active);
+}
+
+.secondary-nav {
+	justify-content: flex-end;
 }

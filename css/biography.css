@@ -1,0 +1,56 @@
+.social-icons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.social-icon {
+	margin-right: 20px;
+}
+
+.signature {
+	float: right;
+	margin-top: 50px;
+}
+
+.icon-box > * {
+	width: 100%;
+}
+
+.icon-img-container {
+	display: flex;
+	justify-content: center;
+}
+
+.icon-img-container img {
+	width: 90px;
+	height: 90px;
+}
+
+.icon-title {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.icon-description {
+	margin-top: 40px;
+	text-align: center;
+	font-style: italic;
+	position: relative;
+}
+
+.icon-description::before {
+	content: "''";
+	font-size: 40px;
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+.icon-description::after {
+	color: var(--primary);
+	content: "''";
+	font-size: 40px;
+	position: absolute;
+	bottom: -40px;
+	margin-left: 20px;
+}
