@@ -4,14 +4,14 @@
 	/* TYPOGRAPHY */
 	--primary: #28b4b1;
 	--text: #626262;
-	--secondary: #cdc16d;
+	--secondary: #cfbf53;
 	--menu-item-text: #8d8b8b;
 	--menut-item-active: #eeeeee;
 	--white: #dcdcdc;
 	--red: #ff0000;
 
 	--text-fs: 16px;
-	--main-heading-fs: 42px;
+	--primary-heading-fs: 42px;
 	--secondary-heading-fs: 24px;
 	/* spacings  */
 	--section-padding: 100px;
@@ -50,9 +50,9 @@ section {
 	width: 50%;
 }
 
-.main-heading {
+.primary-heading {
 	color: var(--text);
-	font-size: var(--main-heading-fs);
+	font-size: var(--primary-heading-fs);
 	font-weight: 500;
 }
 
@@ -72,4 +72,12 @@ section {
 
 .white {
 	color: var(--white);
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
 }

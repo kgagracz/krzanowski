@@ -1,0 +1,43 @@
+.article.left .article-content {
+	text-align: left;
+}
+
+.article.left img {
+	float: right;
+}
+
+.article.right .article-content {
+	text-align: right;
+}
+
+.article.right img {
+	float: left;
+}
+
+.article-head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.article-head .article-date-container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.article-head-box .badge {
+	-webkit-box-shadow: 13px 16px 10px -15px rgba(53, 53, 53, 1);
+	-moz-box-shadow: 13px 16px 10px -15px rgba(53, 53, 53, 1);
+	box-shadow: 13px 16px 10px -15px rgba(53, 53, 53, 1);
+	padding: 6px 23px;
+	margin-right: 30px;
+	border: 1px solid var(--primary);
+}
+
+.article-head-box .primary-heading {
+	margin-top: -20px;
+}
+
+.article-body {
+	margin-top: 60px;
+}
