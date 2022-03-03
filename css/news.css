@@ -41,3 +41,13 @@
 .article-body {
 	margin-top: 60px;
 }
+
+#news .buttons-container {
+	justify-content: flex-end;
+	margin-top: 40px;
+}
+
+#news .buttons-container .buttons-container-inner {
+	display: flex;
+	gap: 16px;
+}

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 :root {
-	/* TYPOGRAPHY */
+	/* COLORS  */
 	--primary: #28b4b1;
 	--text: #626262;
 	--secondary: #cfbf53;
@@ -9,11 +9,16 @@
 	--menut-item-active: #eeeeee;
 	--white: #dcdcdc;
 	--red: #ff0000;
-
+	--button-gradient: linear-gradient(
+		90deg,
+		rgba(238, 241, 241, 1) 0%,
+		rgba(215, 239, 239, 1) 100%
+	);
+	/* TYPOGRAPHY */
 	--text-fs: 16px;
 	--primary-heading-fs: 42px;
 	--secondary-heading-fs: 24px;
-	/* spacings  */
+	/* SPACINGS  */
 	--section-padding: 100px;
 }
 
@@ -23,6 +28,10 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -80,4 +89,26 @@ section {
 
 .float-left {
 	float: left;
+}
+
+.button {
+	padding: 6px 22px;
+	border: 1px solid var(--primary);
+	background-color: #fff;
+	color: var(--text);
+	font-size: var(--text-fs);
+	text-decoration: none;
+}
+
+.button:hover {
+	background: var(--button-gradient);
+}
+
+.swiper {
+	height: 300px;
+}
+
+.swiper-slide {
+	display: flex;
+	justify-content: center;
 }
