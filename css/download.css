@@ -1,0 +1,23 @@
+#downlaod .icon-box {
+	position: relative;
+}
+#downlaod .icon-box .download-arrow {
+	position: absolute;
+	left: 5px;
+	z-index: 1;
+	top: 17%;
+}
+#downlaod .icon-box .download-arrow path {
+	fill: #fff;
+}
+#downlaod .icon-box .icon-description {
+	text-align: center;
+}
+
+#downlaod .icon-box .icon-description::before {
+	display: none;
+}
+
+#downlaod .icon-box .icon-description::after {
+	display: none;
+}
