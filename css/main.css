@@ -15,11 +15,11 @@
 		rgba(215, 239, 239, 1) 100%
 	);
 	/* TYPOGRAPHY */
-	--text-fs: 16px;
-	--primary-heading-fs: 42px;
-	--secondary-heading-fs: 24px;
+	--text-fs: 1rem;
+	--primary-heading-fs: 2.625rem;
+	--secondary-heading-fs: 1.5rem;
 	/* SPACINGS  */
-	--section-padding: 100px;
+	--section-padding: 6.25rem;
 }
 
 *,
@@ -116,4 +116,29 @@ footer {
 .swiper-slide {
 	display: flex;
 	justify-content: center;
+}
+
+@media (max-width: 991px) {
+	:root {
+		--section-padding: 30px;
+	}
+	.container {
+		flex-wrap: wrap;
+		width: 100vw;
+	}
+	.section-content {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.column,
+	.column-4 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 100%;
+		max-width: 100%;
+	}
+	.column > div,
+	.column-4 > div {
+		flex-basis: 100%;
+	}
 }

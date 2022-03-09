@@ -7,3 +7,12 @@
 #discography .section-content .container img:nth-of-type(2) {
 	margin-top: 80px;
 }
+
+@media (max-width: 991px) {
+	#discography .section-content .container img {
+		width: 100%;
+	}
+	#discography .buttons-container {
+		justify-content: center;
+	}
+}
