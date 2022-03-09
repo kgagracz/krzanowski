@@ -51,3 +51,22 @@
 	display: flex;
 	gap: 16px;
 }
+
+@media (max-width: 991px) {
+	.article-head {
+		flex-wrap: wrap;
+		margin-top: 30px;
+		gap: 20px;
+	}
+
+	.article-body img {
+		float: none;
+		width: 100%;
+	}
+
+	.article.right .article-content,
+	.article.left .article-content {
+		text-align: left;
+		margin-top: 15px;
+	}
+}

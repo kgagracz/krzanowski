@@ -9,6 +9,7 @@
 	--menut-item-active: #eeeeee;
 	--white: #dcdcdc;
 	--red: #ff0000;
+	--dark-background: #1d282d;
 	--button-gradient: linear-gradient(
 		90deg,
 		rgba(238, 241, 241, 1) 0%,
@@ -103,6 +104,7 @@ footer {
 	color: var(--text);
 	font-size: var(--text-fs);
 	text-decoration: none;
+	line-height: 32px;
 }
 
 .button:hover {
@@ -124,7 +126,7 @@ footer {
 	}
 	.container {
 		flex-wrap: wrap;
-		width: 100vw;
+		width: 100%;
 	}
 	.section-content {
 		display: flex;
@@ -140,5 +142,12 @@ footer {
 	.column > div,
 	.column-4 > div {
 		flex-basis: 100%;
+	}
+	.primary-heading,
+	.secondary-heading {
+		width: 100%;
+	}
+	.swiper-slide img {
+		object-fit: contain;
 	}
 }

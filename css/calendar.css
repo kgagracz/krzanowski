@@ -52,3 +52,14 @@
 .event-details .event-description {
 	margin-top: 30px;
 }
+
+@media (max-width: 991px) {
+	#calendar {
+		background-size: cover;
+		background-position: center;
+	}
+	.badge {
+		display: block;
+		margin-bottom: 15px;
+	}
+}
