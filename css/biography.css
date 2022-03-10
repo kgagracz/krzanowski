@@ -54,3 +54,9 @@
 	bottom: -40px;
 	margin-left: 20px;
 }
+
+@media (max-width: 991px) {
+	.social-icons {
+		justify-content: space-between;
+	}
+}

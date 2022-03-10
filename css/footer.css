@@ -23,3 +23,46 @@ a {
 #footer .footer-text {
 	margin-top: 30px;
 }
+
+input,
+textarea {
+	padding: 12px 20px;
+	width: 100%;
+	margin-top: 30px;
+	background-color: transparent;
+	border: none;
+	color: var(--white);
+
+	border: 10px solid;
+	border-image-slice: 1;
+	border-width: 2px;
+	border-top-width: 0px;
+	border-image-source: linear-gradient(0deg, #435055, #1e4a4e);
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+textarea {
+	height: 100%;
+	resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: var(--white);
+	font-family: Poppins;
+}
+
+.form-container:first-of-type {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.form-container > div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}

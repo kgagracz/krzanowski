@@ -416,8 +416,12 @@
                 <div class="swiper swiper-2">
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide"><img src="./img/gallery/gallery1.webp" alt=""></div>
-                        <div class="swiper-slide"><img src="./img/gallery/gallery2.webp" alt=""></div>
+                        <div class="swiper-slide"><div class="gradient-overlay">
+                        </div>
+                            <img src="./img/gallery/gallery1.webp" alt=""></div>
+                        <div class="swiper-slide"><div class="gradient-overlay">
+                        </div>
+                            <img src="./img/gallery/gallery2.webp" alt=""></div>
                     </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
@@ -474,6 +478,24 @@
         <div class="container">
             <div class="column">
                 <h2 class="primary-heading white">Wyślij wiadomość</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="column form-container">
+                <div>
+                    <h4 class="footer-heading">Imię i nazwisko</h4>
+                    <input type="text" name="name" id="name" placeholder="Jan Kowalski">
+                </div>
+                <div>
+                    <h4 class="footer-heading">Adres e-mail</h4>
+                    <input type="text" name="name" id="name" placeholder="jan.kowalski@gmail.com">
+                </div>
+            </div>
+            <div class="column form-container text-area-container">
+                <div>
+                    <h4 class="footer-heading">Treść wiadomości</h4>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Witam... Piszę do Pana w sprawie wystąpienia w naszym Miejskim..."></textarea>
+                </div>
             </div>
         </div>
         <div class="section-content">
