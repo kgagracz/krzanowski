@@ -105,6 +105,7 @@ footer {
 	font-size: var(--text-fs);
 	text-decoration: none;
 	line-height: 32px;
+	cursor: pointer;
 }
 
 .button:hover {
