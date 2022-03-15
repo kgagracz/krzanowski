@@ -1,17 +1,24 @@
 #downlaod .icon-box {
 	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
+
 #downlaod .icon-box .download-arrow {
 	position: absolute;
 	left: 5px;
 	z-index: 1;
 	top: 17%;
 }
+
 #downlaod .icon-box .download-arrow path {
 	fill: #fff;
 }
+
 #downlaod .icon-box .icon-description {
 	text-align: center;
+	font-family: "Poppins" !important;
 }
 
 #downlaod .icon-box .icon-description::before {
@@ -20,4 +27,9 @@
 
 #downlaod .icon-box .icon-description::after {
 	display: none;
+}
+
+.folder-icon {
+	width: 63px;
+	height: auto;
 }

@@ -2,10 +2,16 @@
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	gap: 30px;
 }
 
 .social-icon {
 	margin-right: 20px;
+}
+
+.social-icon span {
+	display: block;
+	transform: scale(1.5);
 }
 
 .signature {

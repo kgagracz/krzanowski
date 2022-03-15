@@ -1,5 +1,7 @@
 #footer {
 	background: url("../img/footer-bg.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .footer-heading:not(.footer-heading:first-of-type) {
@@ -84,4 +86,9 @@ textarea::placeholder {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+.submit-container {
+	margin-top: 30px;
+	justify-content: flex-end;
 }

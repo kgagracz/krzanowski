@@ -36,7 +36,7 @@ html {
 }
 
 body {
-	font-family: "Poppins";
+	font-family: "Poppins" !important;
 	font-size: var(--text-fs);
 	color: var(--text);
 }
