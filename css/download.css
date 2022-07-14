@@ -1,31 +1,31 @@
-#downlaod .icon-box {
+#download .icon-box {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-#downlaod .icon-box .download-arrow {
+#download .icon-box .download-arrow {
 	position: absolute;
 	left: 5px;
 	z-index: 1;
 	top: 17%;
 }
 
-#downlaod .icon-box .download-arrow path {
+#download .icon-box .download-arrow path {
 	fill: #fff;
 }
 
-#downlaod .icon-box .icon-description {
+#download .icon-box .icon-description {
 	text-align: center;
 	font-family: "Poppins" !important;
 }
 
-#downlaod .icon-box .icon-description::before {
+#download .icon-box .icon-description::before {
 	display: none;
 }
 
-#downlaod .icon-box .icon-description::after {
+#download .icon-box .icon-description::after {
 	display: none;
 }
 
