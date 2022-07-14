@@ -1,4 +1,4 @@
-.hero {
+#hero {
 	height: 100vh;
 	background-image: url("../img/hero.webp");
 	margin-top: -90px;
@@ -8,11 +8,11 @@
 }
 
 @media (max-width: 991px) {
-	.hero {
+	#hero {
 		background-position: top center;
 	}
 
-	.hero img {
+	#hero img {
 		width: 100%;
 	}
 }
