@@ -93,3 +93,9 @@ textarea::placeholder {
 	margin-top: 30px;
 	justify-content: flex-end;
 }
+
+@media (max-width: 991px) {
+	#footer h2 {
+		margin-top: 30px;
+	}
+}
