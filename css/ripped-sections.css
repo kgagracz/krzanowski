@@ -28,3 +28,14 @@
 #calendar .ripped-background-bottom {
 	background-image: url("../img/ripped-sections/calendar-bottom.svg");
 }
+
+#gallery .ripped-background-top {
+	background-image: url("../img/ripped-sections/gallery-top.svg");
+}
+#gallery .ripped-background-bottom {
+	background-image: url("../img/ripped-sections/gallery-bottom.svg");
+}
+
+#footer .ripped-background-top {
+	background-image: url("../img/ripped-sections/footer-top.svg");
+}
