@@ -44,6 +44,7 @@ body {
 section,
 footer {
 	padding: var(--section-padding);
+	position: relative;
 }
 
 .container {
