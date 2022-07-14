@@ -48,7 +48,7 @@ footer {
 }
 
 .container {
-	width: 1365px;
+	max-width: 1365px;
 	margin: auto;
 	display: flex;
 	gap: 60px;
