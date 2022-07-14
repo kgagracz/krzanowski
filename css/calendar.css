@@ -1,5 +1,6 @@
 #calendar {
 	background-image: url("../img/tekstura\ tkanina.webp");
+	background-attachment: fixed;
 }
 
 .events {

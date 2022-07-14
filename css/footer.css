@@ -2,6 +2,7 @@
 	background: url("../img/footer-bg.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .footer-heading:not(.footer-heading:first-of-type) {
