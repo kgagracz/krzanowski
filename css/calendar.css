@@ -1,66 +1,66 @@
 #calendar {
-	background-image: url("../img/tekstura\ tkanina.webp");
-	background-attachment: fixed;
+  background-image: url("../img/tekstura\ tkanina.webp");
+  background-attachment: fixed;
 }
 
 .events {
-	justify-content: space-between;
+  justify-content: space-between;
 }
 
 .event-container {
-	display: flex;
+  display: flex;
 }
 
 .event-container .event-date {
-	width: 20%;
-	margin-right: 15px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+  width: 20%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .event-container .event-date p {
-	text-align: center;
+  text-align: center;
 }
 
 .event-date .event-day {
-	font-size: 54px;
+  font-size: 54px;
 }
 
 .event-date .event-month,
 .event-date .event-year {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .event-details {
-	width: 80%;
+  width: 80%;
 }
 
 .event-details .event-place-info {
-	margin-top: 20px;
-	display: flex;
-	gap: 14px;
+  margin-top: 20px;
+  display: flex;
+  gap: 14px;
 }
 
 .event-details .event-place-info .middle {
-	border-width: 0 2px;
-	border-color: var(--white);
-	border-style: solid;
-	padding: 0 14px;
+  border-width: 0 2px;
+  border-color: var(--white);
+  border-style: solid;
+  padding: 0 14px;
 }
 
 .event-details .event-description {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 @media (max-width: 991px) {
-	#calendar {
-		background-size: cover;
-		background-position: center;
-	}
-	.badge {
-		display: block;
-		margin-bottom: 15px;
-	}
+  #calendar {
+    background-size: cover;
+    background-position: center;
+  }
+  .badge {
+    display: block;
+    margin-bottom: 15px;
+  }
 }

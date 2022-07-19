@@ -1,41 +1,41 @@
 .ripped-background-top {
-	background-position: top;
-	top: 0;
+  background-position: top;
+  top: 0;
 }
 
 .ripped-background-bottom {
-	background-position: bottom;
-	bottom: 0;
+  background-position: bottom;
+  bottom: 0;
 }
 
 .ripped-background-top,
 .ripped-background-bottom {
-	background-repeat: no-repeat;
-	position: absolute;
-	width: 100%;
-	height: 70px;
-	z-index: 2;
-	left: 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  left: 0;
 }
 
 #hero .ripped-background-bottom {
-	background-image: url("../img/ripped-sections/hero-bottom.svg");
+  background-image: url("../img/ripped-sections/hero-bottom.svg");
 }
 
 #calendar .ripped-background-top {
-	background-image: url("../img/ripped-sections/calendar-top.svg");
+  background-image: url("../img/ripped-sections/calendar-top.svg");
 }
 #calendar .ripped-background-bottom {
-	background-image: url("../img/ripped-sections/calendar-bottom.svg");
+  background-image: url("../img/ripped-sections/calendar-bottom.svg");
 }
 
 #gallery .ripped-background-top {
-	background-image: url("../img/ripped-sections/gallery-top.svg");
+  background-image: url("../img/ripped-sections/gallery-top.svg");
 }
 #gallery .ripped-background-bottom {
-	background-image: url("../img/ripped-sections/gallery-bottom.svg");
+  background-image: url("../img/ripped-sections/gallery-bottom.svg");
 }
 
 #footer .ripped-background-top {
-	background-image: url("../img/ripped-sections/footer-top.svg");
+  background-image: url("../img/ripped-sections/footer-top.svg");
 }
