@@ -1,40 +1,40 @@
 #download .icon-box {
-	position: relative;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #download .icon-box .download-arrow {
-	position: absolute;
-	left: 5px;
-	z-index: 1;
-	top: 17%;
+  position: absolute;
+  left: 5px;
+  z-index: 1;
+  top: 17%;
 }
 
 #download .icon-box .download-arrow path {
-	fill: #fff;
+  fill: #fff;
 }
 
 #download .icon-box .icon-description {
-	text-align: center;
-	font-family: "Poppins" !important;
+  text-align: center;
+  font-family: "Poppins" !important;
 }
 
 #download .icon-box .icon-description::before {
-	display: none;
+  display: none;
 }
 
 #download .icon-box .icon-description::after {
-	display: none;
+  display: none;
 }
 
 .folder-icon {
-	width: 63px;
-	height: auto;
+  width: 63px;
+  height: auto;
 }
 
 .download-link {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }

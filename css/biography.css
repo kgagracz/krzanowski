@@ -1,68 +1,68 @@
 .social-icons {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	gap: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
 }
 
 .social-icon {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .social-icon span {
-	display: block;
-	transform: scale(1.5);
+  display: block;
+  transform: scale(1.5);
 }
 
 .signature {
-	float: right;
-	margin-top: 50px;
+  float: right;
+  margin-top: 50px;
 }
 
 .icon-box > * {
-	width: 100%;
+  width: 100%;
 }
 
 .icon-img-container {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .icon-img-container img {
-	width: 90px;
-	height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 .icon-title {
-	margin-top: 50px;
-	text-align: center;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .icon-description {
-	margin-top: 40px;
-	text-align: center;
-	font-style: italic;
-	position: relative;
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+  position: relative;
 }
 
 .icon-description::before {
-	content: "''";
-	font-size: 40px;
-	position: absolute;
-	top: -20px;
-	left: 0;
+  content: "''";
+  font-size: 40px;
+  position: absolute;
+  top: -20px;
+  left: 0;
 }
 .icon-description::after {
-	color: var(--primary);
-	content: "''";
-	font-size: 40px;
-	position: absolute;
-	bottom: -40px;
-	margin-left: 20px;
+  color: var(--primary);
+  content: "''";
+  font-size: 40px;
+  position: absolute;
+  bottom: -40px;
+  margin-left: 20px;
 }
 
 @media (max-width: 991px) {
-	.social-icons {
-		justify-content: space-between;
-	}
+  .social-icons {
+    justify-content: space-between;
+  }
 }
