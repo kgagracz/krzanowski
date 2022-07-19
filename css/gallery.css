@@ -2,6 +2,8 @@
 	padding: 0;
 	height: auto;
 	background-color: #000;
+	position: relative;
+	overflow: hidden;
 }
 
 .calendar-swiper {
@@ -27,10 +29,58 @@
 	width: 80%;
 	height: 700px;
 }
+
 .gallery-thumbs {
 	box-sizing: border-box;
 	padding: 10px 0;
+	position: absolute;
+	bottom: -150px;
+	transition: all .2s ease;
+	background-color: rgba(255, 255, 255, .1);
+	z-index: 1;
+	height: 150px;
+	display: flex;
+	align-items: center;
 }
+
+.gallery-thumbs .swiper-wrapper {
+	align-items: center;
+}
+
+.gallery-thumbs.active {
+	bottom: 120px
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	z-index: 2;
+}
+
+#show-slider-thumbs {
+	z-index: 2;
+	height: auto;
+	position: absolute;
+	bottom: 90px;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+#show-slider-thumbs:hover {
+	transform: scale(1.2);
+}
+
+#show-slider-thumbs i {
+	transition: all .2s ease;
+}
+
+#show-slider-thumbs.active i {
+	transform: rotate(180deg);
+}
+
 .gallery-thumbs .swiper-slide {
 	width: 20%;
 	height: 100px;

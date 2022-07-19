@@ -35,4 +35,13 @@ window.addEventListener("DOMContentLoaded", () => {
 	navItems.forEach(navItem => {
 		navItem.addEventListener('click', toggleNav);
 	})
+
+	//show-slider-thumbs
+	const showSliderThumbsButton = document.getElementById('show-slider-thumbs');
+	const sliderThumbs = document.querySelector('.gallery-thumbs');
+	showSliderThumbsButton.addEventListener('click', () => {
+		if (sliderThumbs.classList.contains('active')) {sliderThumbs.classList.remove('active'); showSliderThumbsButton.classList.remove('active')}
+		else {sliderThumbs.classList.add('active');showSliderThumbsButton.classList.add('active')}
+	})
+
 });
