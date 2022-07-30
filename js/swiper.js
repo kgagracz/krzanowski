@@ -17,7 +17,7 @@ const swiper = new Swiper(".swiper", {
   slidesPerView: 1,
   breakpoints: {
     320: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
@@ -39,7 +39,7 @@ const calendarSwiper = new Swiper(".calendar-swiper", {
   slidesPerView: 2,
   breakpoints: {
     320: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
 });
@@ -63,6 +63,11 @@ const galleryThumbs = new Swiper(".gallery-thumbs", {
   slideToClickedSlide: true,
   loop: true,
   loopedSlides: 4,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+  },
 });
 
 galleryTop.controller.control = galleryThumbs;
