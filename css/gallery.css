@@ -63,7 +63,7 @@
   position: absolute;
   bottom: 90px;
   background-color: transparent;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.425);
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -89,4 +89,17 @@
 }
 .gallery-thumbs .swiper-slide-active {
   opacity: 1;
+}
+
+#gallery .swiper-button-next svg path,
+#gallery .swiper-button-prev svg path {
+  fill: rgba(255, 255, 255, 0.425);
+}
+
+#gallery .swiper-button-next {
+  right: 15% !important;
+}
+
+#gallery .swiper-button-prev {
+  left: 15% !important;
 }

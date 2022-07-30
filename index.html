@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/biography.css">
     <link rel="stylesheet" href="css/calendar.css">
     <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/multimedia.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/discography.css">
     <link rel="stylesheet" href="css/download.css">
@@ -256,8 +257,12 @@
                         </div>
 
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev">
+                        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg>
+                    </div>
                 </div>
 
             </div>
@@ -355,8 +360,8 @@
                         <div class="swiper-slide"><img src="./img/video1.png" alt=""></div>
                         <div class="swiper-slide"><img src="./img/video1.png" alt=""></div>
                     </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"><svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg></div>
+                    <div class="swiper-button-next"><svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg></div>
                 </div>
 
             </div>
@@ -377,8 +382,10 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg>        </div>
+        <div class="swiper-button-prev">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 39" width="13" height="39"><style>.a{opacity:.4;fill:#28b4b1}</style><path class="a" d="m7 39l-7-19.5 7-19.5h6l-7 19.5 7 19.5z"/></svg>        </div>
         <div class="swiper-container gallery-thumbs">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -448,6 +455,7 @@
                         <div class="icon-description">Materiały do mediów</div>
                     </div>
                 </div>
+                <div class="border"></div>
                 <div class="column">
                     <div class="icon-box">
                         <a class="download-link" href="">
@@ -483,31 +491,33 @@
                 <div class="column form-container text-area-container">
                     <div>
                         <h4 class="footer-heading">Treść wiadomości</h4>
-                        <textarea name="message" id="message" cols="30" rows="10"
+                        <textarea name="message" id="message" cols="30" rows="8"
                             placeholder="Witam... Piszę do Pana w sprawie wystąpienia w naszym Miejskim..."></textarea>
                     </div>
                 </div>
             </div>
             <div class="container submit-container">
-                <input type="submit" class="button"></a>
+                <input type="submit" class="button button-transparent" value="wyślij">
             </div>
         </form>
         <div class="section-content">
             <div class="container">
                 <div class="column">
                     <h3 class="secondary-heading white">Dane kontaktowe:</h3>
-                    <h4 class="footer-heading">telefon:</h4>
+                    <h4 class="footer-heading">
+                        <img class="footer-heading-icon" src="./icons/phone.svg" alt="">
+                        telefon:</h4>
                     <a href="tel:+48502236740">502 236 740; </a>
                     <a href="tel:+48502623548"> 502 623 548</a>
-                    <h4 class="footer-heading">email:</h4>
+                    <h4 class="footer-heading"><img class="footer-heading-icon" src="./icons/envelope.svg" alt="">email:</h4>
                     <a href="mailto:krzanowski@gmail.com">krzanowski@gmail.com </a>
                 </div>
                 <div class="column">
                     <h3 class="secondary-heading white">Na skróty</h3>
-                    <h4 class="footer-heading"><a href="#news" class="color-2">Aktualności</a></h4>
+                    <h4 class="footer-heading"><a href="#news" class="color-2"><img class="footer-heading-icon" src="./icons/news.svg" alt="">Aktualności</a></h4>
                     <p class="footer-text white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
                         exercitationem?</p>
-                    <h4 class="footer-heading"><a href="#calendar" class="color-2">Kalendarium</a></h4>
+                    <h4 class="footer-heading"><a href="#calendar" class="color-2"><img class="footer-heading-icon" src="./icons/calendarium.png" alt="">Kalendarium</a></h4>
                     <p class="footer-text white">Zobacz gdzie i kiedy odbędzie się najlbiższy koncert.</p>
                 </div>
                 <div class="column">
@@ -521,9 +531,14 @@
                         <div class="instagram-post">6</div>
                     </div>
                 </div>
-                <div class="column">
-                    <h3 class="secondary-heading white">Newsy</h3>
-                    <h4 class="footer-heading">telefon</h4>
+                <div class="column newsletter-container">
+                    <h3 class="secondary-heading white">Newsletter</h3>
+                    <h4 class="footer-heading">Zapisz się...</h4>
+                    <p class="footer-text white">Jeśli chcesz na bieżąco być informowany o wszystkich zbliżających się wydarzeniach i otrzymywać najnowsze wiadomości, wpisz poniżej swój adres e-mail.</p>
+                    <input class="newsletter" type="text" placeholder="Adres e-mail">
+                    <div class="newsletter-button-container">
+                        <input type="submit" class="button button-transparent" value="zapisz">
+                    </div>
                 </div>
             </div>
         </div>

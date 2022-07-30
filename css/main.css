@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 :root {
   /* COLORS  */
@@ -21,6 +21,7 @@
   --secondary-heading-fs: 1.5rem;
   /* SPACINGS  */
   --section-padding: 6.25rem;
+  --section-content-padding: 4.375rem;
 }
 
 *,
@@ -57,7 +58,7 @@ footer {
 }
 
 .section-content {
-  margin-top: var(--section-padding);
+  margin-top: var(--section-content-padding);
 }
 
 .column {
@@ -102,17 +103,33 @@ footer {
 
 .button {
   padding: 6px 22px;
-  border: 1px solid var(--primary);
   background-color: #fff;
   color: var(--text);
   font-size: var(--text-fs);
   text-decoration: none;
   line-height: 32px;
   cursor: pointer;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(45deg, #afbfbf, #25b4b1);
 }
 
 .button:hover {
   background: var(--button-gradient);
+}
+
+.button-transparent {
+  background-color: transparent;
+  color: var(--white);
+  padding: 0 23px;
+  font-size: 16px;
+  border-image-source: linear-gradient(45deg, #525e63, #1e5b5e);
+  font-family: "Poppins";
+}
+
+.button-transparent:hover {
+  background: transparent;
 }
 
 .swiper {
@@ -122,6 +139,15 @@ footer {
 .swiper-slide {
   display: flex;
   justify-content: center;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next {
+  transform: rotate(180deg);
 }
 
 .gradient-overlay {

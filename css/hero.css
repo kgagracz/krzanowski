@@ -1,18 +1,23 @@
 #hero {
-	height: 100vh;
-	background-image: url("../img/hero.webp");
-	margin-top: -90px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 100vh;
+  background-image: url("../img/hero.webp");
+  margin-top: -90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+#hero img {
+  margin-top: 15%;
 }
 
 @media (max-width: 991px) {
-	#hero {
-		background-position: top center;
-	}
+  #hero {
+    background-position: top center;
+  }
 
-	#hero img {
-		width: 100%;
-	}
+  #hero img {
+    width: 100%;
+  }
 }

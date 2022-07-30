@@ -54,6 +54,19 @@
   margin-top: 30px;
 }
 
+#calendar .swiper-button-next svg path,
+#calendar .swiper-button-prev svg path {
+  fill: rgba(255, 255, 255, 0.425);
+}
+
+#calendar .swiper-button-next {
+  right: 0% !important;
+}
+
+#calendar .swiper-button-prev {
+  left: 0% !important;
+}
+
 @media (max-width: 991px) {
   #calendar {
     background-size: cover;

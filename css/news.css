@@ -1,3 +1,7 @@
+#news {
+  padding-bottom: 0px;
+}
+
 .article.left .article-content {
   text-align: left;
 }
