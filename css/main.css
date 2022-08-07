@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@font-face {
+  font-family: "Gautami";
+  src: url("/css/fonts/gautami.ttf");
+}
+@font-face {
+  font-family: "Futura bt";
+  src: url("/css/fonts/futura\ medium\ bt.ttf");
+}
 
 :root {
   /* COLORS  */
@@ -45,7 +53,7 @@ body {
 
 section,
 footer {
-  padding: var(--section-padding);
+  padding: var(--section-content-padding);
   position: relative;
 }
 
@@ -59,6 +67,10 @@ footer {
 
 .section-content {
   margin-top: var(--section-content-padding);
+}
+
+section .section-content p {
+  text-align: justify
 }
 
 .column {
@@ -79,6 +91,7 @@ footer {
   color: var(--text);
   font-size: var(--secondary-heading-fs);
   font-weight: 500;
+  margin-bottom: 34px;
 }
 
 .color-1 {
@@ -122,9 +135,11 @@ footer {
 .button-transparent {
   background-color: transparent;
   color: var(--white);
-  padding: 0 23px;
+  padding: 4px 23px!important;
+  border-width: 1px;
   font-size: 16px;
   border-image-source: linear-gradient(45deg, #525e63, #1e5b5e);
+  line-height: 1;
   font-family: "Poppins";
 }
 

@@ -2,7 +2,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 30px;
 }
 
 .social-icon {
@@ -38,27 +37,30 @@
   text-align: center;
 }
 
-.icon-description {
+.box-description {
   margin-top: 40px;
   text-align: center;
   font-style: italic;
   position: relative;
+  font-family: "Poppins";
 }
 
-.icon-description::before {
+.box-description::before {
   content: "''";
   font-size: 40px;
   position: absolute;
   top: -20px;
   left: 0;
+  font-family: "Gautami";
 }
-.icon-description::after {
+.box-description::after {
   color: var(--primary);
   content: "''";
   font-size: 40px;
   position: absolute;
   bottom: -40px;
   margin-left: 20px;
+  font-family: "Gautami";
 }
 
 @media (max-width: 991px) {
