@@ -3,6 +3,13 @@
   padding-bottom: 40px;
 }
 
+#multimedia .multimedia-swiper-button-next {
+  right: 5% !important;
+}
+#multimedia .multimedia-swiper-button-prev {
+  left: 5% !important;
+}
+
 .multimedia-swiper {
   overflow: hidden;
 }

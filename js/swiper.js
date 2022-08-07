@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const galleryThumbs = new Swiper(".gallery-thumbs", {
-    spaceBetween: 10,
+    spaceBetween: 0,
     centeredSlides: true,
     slidesPerView: "auto",
     touchRatio: 0.2,
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     slidesPerView: 3,
     breakpoints: {
       320: {
-        slidesPerView: 1,
+        slidesPerView: 3,
       },
     },
   });
