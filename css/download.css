@@ -1,5 +1,6 @@
 #download {
   padding-top: 0;
+  padding-bottom: 120px;
 }
 
 #download .icon-box {
@@ -23,6 +24,7 @@
 #download .icon-box .icon-description {
   text-align: center;
   font-family: "Poppins" !important;
+  margin-top: 20px;
 }
 
 #download .icon-box .icon-description::before {

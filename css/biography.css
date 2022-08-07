@@ -32,35 +32,38 @@
   height: 90px;
 }
 
-.icon-title {
+#biography .icon-title {
   margin-top: 50px;
   text-align: center;
+  font-family: "Poppins" !important ;
 }
 
 .box-description {
   margin-top: 40px;
-  text-align: center;
+  text-align: center !important;
   font-style: italic;
   position: relative;
   font-family: "Poppins";
+  line-height: 2;
 }
 
 .box-description::before {
   content: "''";
   font-size: 40px;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  font-family: "Gautami";
+  display: inline-block;
+  padding-right: 17px;
+  font-family: "Catamaran", sans-serif;
+  height: 50px;
+  transform: rotate(180deg);
 }
 .box-description::after {
   color: var(--primary);
   content: "''";
   font-size: 40px;
   position: absolute;
+  margin-left: 10px;
+  font-family: "Catamaran", sans-serif;
   bottom: -40px;
-  margin-left: 20px;
-  font-family: "Gautami";
 }
 
 @media (max-width: 991px) {

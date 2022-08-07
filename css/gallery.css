@@ -7,7 +7,7 @@
 }
 
 .calendar-swiper {
-  height: 700px;
+  max-width: 1365px;
 }
 
 .swiper-container {

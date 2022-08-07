@@ -4,6 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 50px;
+  padding-top: 120px;
 }
 
 .footer-heading:not(.footer-heading:first-of-type) {

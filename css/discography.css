@@ -1,3 +1,7 @@
+#discography {
+  padding-top: 20px;
+}
+
 #discography .buttons-container {
   display: flex;
   justify-content: flex-end;

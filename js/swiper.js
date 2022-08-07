@@ -23,32 +23,30 @@ const swiper = new Swiper(".swiper", {
 });
 
 const calendarSwiper = new Swiper(".calendar-swiper", {
-  // Optional parameters
   direction: "horizontal",
   loop: true,
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
   },
-  // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".calendar-swiper-button-next",
+    prevEl: ".calendar-swiper-button-prev",
   },
   controller: true,
-  slidesPerView: 2,
+  slidesPerView: 1,
   breakpoints: {
     320: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
   },
+  spaceBetween: 60,
 });
 
 const galleryTop = new Swiper(".gallery-top", {
   spaceBetween: 10,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".gallery-swiper-button-next",
+    prevEl: ".gallery-swiper-button-prev",
   },
   loop: true,
   loopedSlides: 4,
