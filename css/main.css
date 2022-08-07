@@ -33,6 +33,12 @@
   --section-content-padding: 4.375rem;
 }
 
+@media (max-width: 991px) {
+  :root {
+    --section-content-padding: 50px;
+  }
+}
+
 *,
 *::after,
 *::before {

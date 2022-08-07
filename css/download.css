@@ -50,3 +50,10 @@
   width: 2px;
   background: radial-gradient(#8e8e8e, #fff);
 }
+
+@media (max-width: 991px) {
+  .border {
+    transform: rotate(90deg);
+    margin: auto;
+  }
+}

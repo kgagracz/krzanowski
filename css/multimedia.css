@@ -2,3 +2,19 @@
   padding-top: 0;
   padding-bottom: 40px;
 }
+
+.multimedia-swiper {
+  overflow: hidden;
+}
+
+.multimedia-swiper img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 991px) {
+  .multimedia-swiper {
+    height: 150px !important;
+  }
+}

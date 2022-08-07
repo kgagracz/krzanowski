@@ -103,3 +103,9 @@
 #gallery .swiper-button-prev {
   left: 15% !important;
 }
+
+@media (max-width: 991px) {
+  .gallery-top {
+    height: 260px;
+  }
+}

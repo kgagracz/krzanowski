@@ -97,9 +97,20 @@
   #calendar {
     background-size: cover;
     background-position: center;
+    padding: 50px;
   }
   .badge {
     display: block;
     margin-bottom: 15px;
+  }
+
+  .event-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+  }
+
+  #calendar .swiper-slide {
+    justify-content: flex-start;
   }
 }

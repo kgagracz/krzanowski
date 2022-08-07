@@ -14,7 +14,8 @@
 
 @media (max-width: 991px) {
   #hero {
-    background-position: top center;
+    background-position: center;
+    height: 50vh;
   }
 
   #hero img {
