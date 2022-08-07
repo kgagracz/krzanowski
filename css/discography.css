@@ -23,6 +23,7 @@
 
 .album-box {
   z-index: 2;
+  cursor: pointer;
 }
 
 .album-cd {
@@ -37,6 +38,36 @@
 .album-wrapper:hover .album-cd {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
+}
+
+.cover-popup {
+  position: fixed;
+  width: 1200px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -600px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-popup img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.popup-overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 991px) {

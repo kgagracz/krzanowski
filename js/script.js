@@ -47,4 +47,30 @@ window.addEventListener("DOMContentLoaded", () => {
       showSliderThumbsButton.classList.add("active");
     }
   });
+
+  //clicking on album cover
+  const coversImages = [...document.getElementsByClassName("album-box")];
+  const coverPopup = document.createElement("div");
+  const popupOverlay = document.createElement("div");
+  const popupImg = document.createElement("img");
+
+  popupOverlay.classList.add("popup-overlay");
+  popupOverlay.addEventListener("click", () => {
+    popupOverlay.remove();
+    coverPopup.remove();
+  });
+
+  popupImg.classList.add("popup-image");
+
+  coverPopup.appendChild(popupImg);
+  coverPopup.classList.add("cover-popup");
+
+  coversImages.forEach((cover) => {
+    cover.addEventListener("click", () => {
+      const coverCopy = cover.cloneNode(true);
+      popupImg.src = coverCopy.src;
+      document.body.appendChild(coverPopup);
+      document.body.appendChild(popupOverlay);
+    });
+  });
 });
